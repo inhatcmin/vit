@@ -13,7 +13,7 @@ from torchvision.models import vit_b_16, ViT_B_16_Weights
 # =========================
 # 1. 설정
 # =========================
-DATA_DIR = "./mvtec_anomaly_detection/grid"
+DATA_DIR = "./grid"
 
 TRAIN_DIR = os.path.join(DATA_DIR, "train/good")
 TEST_DIR = os.path.join(DATA_DIR, "test")
